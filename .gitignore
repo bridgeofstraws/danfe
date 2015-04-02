@@ -17,4 +17,4 @@ pl2ps_2win
 
 
 # the working copy of teh platform specific makefile options
-make.*
+#make.*
