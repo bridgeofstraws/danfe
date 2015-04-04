@@ -1,5 +1,6 @@
 echo This should be run from a long filename compatble shell (ie windows) to transform the code for djgpp in dosbox (case insensitive and short file names only)
 ren "libsrc\draw_pgplot.f" "draw_pgp.f"
+ren "include\make.dos_djgpp" "make.dos"
 cd libsrc
 powershell -Command "Dir * | rename-item -newname {  $_.name  -creplace '.F','.fpp'  }"
 cd ..\src
